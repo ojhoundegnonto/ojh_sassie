@@ -1,0 +1,1050 @@
+{
+  "method": "search",
+  "result": {
+    "items": [
+      {
+        "AWSRegion": "us-west-2",
+        "Cloud Enabled": "true",
+        "DOIHistory": [],
+        "S3BucketAndObjectPrefixNames": [
+          "s3://gesdisc-cumulus-prod-protected/MERRA2/M2T1NXFLX.5.12.4/"
+        ],
+        "S3CredentialsAPIDocumentationURL": "https://data.gesdisc.earthdata.nasa.gov/s3credentialsREADME",
+        "S3CredentialsAPIEndpoint": "https://data.gesdisc.earthdata.nasa.gov/s3credentials",
+        "_id": "61b5c959b3709c246c9065ff",
+        "abstract": "M2T1NXFLX (or  tavg1_2d_flx_Nx) is an hourly time-averaged 2-dimensional data collection in Modern-Era Retrospective analysis for Research and Applications version 2 (MERRA-2).  This collection consists of assimilated surface flux diagnostics, such as total precipitation, bias corrected total precipitation, surface air temperature, surface specific humidity, surface wind speed,  and evaporation from turbulence.  The \u201csurface\u201d in this data collection is the model surface layer. The heights of the model surface layer (HLML) vary with time and location, with the value of ~60 meter above ground.  The data field is time-stamped with the central time of an hour starting from 00:30 UTC, e.g.: 00:30, 01:30, \u2026 , 23:30 UTC.\n\nMERRA-2 is the latest version of global atmospheric reanalysis for the satellite era produced by NASA Global Modeling and Assimilation Office (GMAO) using the Goddard Earth Observing System Model (GEOS) version 5.12.4.  The dataset covers the period of 1980-present with the latency of ~3 weeks after the end of a month. \n\nData Reprocessing:  Please check \u201cRecords of MERRA-2 Data Reprocessing and Service Changes\u201d linked from the \u201cDocumentation\u201d tab on this page.  Note that a reprocessed data filename is different from the original file.\n\nMERRA-2 Mailing List: Sign up to receive information on reprocessing of data, changing of tools and services, as well as data announcements from GMAO. Contact the GES DISC Help Desk (gsfc-dl-help-disc@mail.nasa.gov) to be added to the list.\n\nQuestions: If you have a question, please read \"MERRA-2 File Specification Document\",  \u201cMERRA-2 Data Access \u2013 Quick Start Guide\u201d, and FAQs linked from the \u201dDocumentation\u201d tab on this page.  If that does not answer your question, you may email the question on data access to the GES DISC Help Desk (gsfc-dl-help-disc@mail.nasa.gov), or the question on science to the MERRA-2 science team (merra-questions@lists.nasa.gov).",
+        "browseImage": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/M2T1NXFLX_5.12.4.png",
+        "browseImageCaption": "M2T1NXFLX",
+        "browseImageDescription": "M2T1NXFLX variable",
+        "dataset": {
+          "disciplines": [
+            "Atmospheric Radiation",
+            "Atmospheric Temperature",
+            "Atmospheric Water Vapor",
+            "Precipitation",
+            "Snow/Ice",
+            "Ocean Heat Budget",
+            "Ocean Winds",
+            "Atmospheric Winds",
+            "Topography",
+            "Altitude",
+            "Sea Ice"
+          ],
+          "id": "M2T1NXFLX_5.12.4",
+          "idhash": "-5560011206905895623",
+          "label": "MERRA-2 tavg1_2d_flx_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Surface Flux Diagnostics V5.12.4",
+          "linkId": "M2T1NXFLX_5.12.4",
+          "measurements": [
+            "Heat Flux",
+            "Air Temperature",
+            "Skin Temperature",
+            "Humidity",
+            "Water Vapor",
+            "Precipitation Rate",
+            "Evaporation",
+            "Latent Heat Flux",
+            "Latent Heat Flux",
+            "Sensible Heat Flux",
+            "Diffusion",
+            "Surface Winds",
+            "Wind Speed",
+            "U/V Wind Components",
+            "Wind Stress",
+            "Wind Stress",
+            "Surface Roughness",
+            "Planetary Boundary Layer Height",
+            "Ice Fraction"
+          ]
+        },
+        "doi": "10.5067/7MCPBJ41Y0K6",
+        "endDate": 1696204799000,
+        "explain": {
+          "dataset": {
+            "id": [
+              "<em>M2T1NXFLX_5.12.4</em>"
+            ]
+          }
+        },
+        "features": [
+          "Cloud Enabled"
+        ],
+        "fileSize": "380 MB per file",
+        "fileSizeComputed": 380000000,
+        "fileSizePredicted": 382531352.9968262,
+        "format": {
+          "label": "netCDF",
+          "labelOriginal": "netCDF",
+          "value": "netCDF"
+        },
+        "granulesPerDayPredicted": 1,
+        "keywords": [
+          "M2T1NXFLX_5.12.4"
+        ],
+        "link": "https://disc.gsfc.nasa.gov/datacollection/M2T1NXFLX_5.12.4.html",
+        "meta": {
+          "difEditor": "Carlee Loeser",
+          "difEditorEmail": "carlee.f.loeser@nasa.gov",
+          "difLastUpdated": 1693402831734,
+          "ingestDate": 1698139848502,
+          "ingestLog": {},
+          "ingestSource": "PROD"
+        },
+        "processingLevel": "4",
+        "projectLong": [
+          "The second Modern-Era Retrospective analysis for Research and Applications"
+        ],
+        "projectShort": [
+          "MERRA-2"
+        ],
+        "references": {
+          "citations": [
+            "Global Modeling and Assimilation Office (GMAO) (2015), MERRA-2 tavg1_2d_flx_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Surface Flux Diagnostics V5.12.4, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: [Data Access Date], 10.5067/7MCPBJ41Y0K6"
+          ],
+          "documentation": [
+            "Gelaro, R., W. McCarty, M. J. Su\u00e1rez, R. Todling, A. Molod, L. Takacs, C. A. Randles, A. Darmenov, M. G. Bosilovich, R. Reichle, et al. (2017), The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)., J. Climate, 30(14), doi:10.1175/JCLI-D-16-0758.1",
+            "Molod, A., L. Takacs, M. Suarez, and J. Bacmeister (2015), Development of the GEOS-5 atmospheric general circulation model: evolution from MERRA to MERRA2., Geosci. Model Dev., 8, doi:10.5194/gmd-8-1339-2015",
+            "Randles, C. A., A. M. da Silva, V. Buchard, P. R. Colarco, A. Darmenov, R. Govindaraju, A. Smirnov, B. Holben, R. Ferrare, J. Hair, Y.Shinozuka, and C.J. Flynn (2017), The MERRA-2 Aerosol Reanalysis, 1980 Onward. Part I: System Description and Data Assimilation Evaluation., J. Climate, 30(17), doi:10.1175/JCLI-D-16-0609.1",
+            "Buchard V., C. A. Randles, A. M. da Silva, A. Darmenov, P. R. Colarco, R. Govindaraju, R. Ferrare, J. Hair, A. J. Beyersdorf, L. D. Ziemba, H. Yu (2017), The MERRA-2 aerosol reanalysis, 1980 onward. Part II: Evaluation and case studies., J. Climate, 30(17), doi:10.1175/JCLI-D-16-0613.1",
+            "Reichle, R.H., Q. Liu, R.D. Koster, C.S. Draper, S.P.P. Mahanama, and G.S. Partyka (2017), Land Surface Precipitation in MERRA-2., J. Climate, 30(5), doi:10.1175/JCLI-D-16-0570.1",
+            "Reichle, R. H., C. S. Draper, Q. Liu, M. Girotto, S. P. P. Mahanama, R. D. Koster, and G. J. M. De Lannoy (2017), Assessment of MERRA-2 Land Surface Hydrology Estimates., J. Climate, 30(8), doi:10.1175/JCLI-D-16-0720.1",
+            "Bosilovich, M. G., S. Akella, L. Coy, R. Cullather, C. Draper, R. Gelaro, R. Kovach, Q.Liu, A. Molod, P. Norris, K. Wargan, W. Chao, R. Reichle, L. Takacs, Y. Vikhliaev, S. Bloom, A. Collow, S. Firth, G. Labow, G. Partyka, S. Pawson, O. Reale, S. D. Schubert, and M. Suarez (2015), 2015b: MERRA-2: Initial Evaluation of the Climate, Technical Report Series on Global Modeling and Data Assimilation, 43, doi:NASA/TM\u20132015-104606/Vol. 43",
+            "Bloom, S., L. Takacs, A. DaSilva, and D. Ledvina (1996), Data assimilation using incremental analysis updates, Monthly Weather Review, 124",
+            "Bloom, S., A. da Silva, D. Dee, M. Bosilovich, J.-D. Chern, S. Pawson, S. Schubert, M. Sienkiewicz, I. Stajner, W.-W. Tan, M.-L. Wu (2005), Documentation and Validation of the Goddard Earth Observing System (GEOS) Data Assimilation System - Version 4, Technical Report Series on Global Modeling and Data Assimilation",
+            "Collins, N., G. Theurich, C. DeLuca, M. Suarez, A. Trayanov, V. Balaji, P. Li, W. Yang, C. Hill, and A. da Silva (2005), Design and implementation of components in the Earth System Modeling Framework, International Journal of High Performance Computing Applications, doi:10.1177/1094342005056120",
+            "Koster, R. D., M. J. Suarez, A. Ducharne, M. Stieglitz, and P. Kumar (2000), A catchment-based approach to modeling land surface processes in a GCM, Part 1, Model Structure, Journal of Geophysical Res.",
+            "Purser, R. J., W.-S. Wu, D. F. Parrish, and N. M. Roberts (2003), Numerical aspects of the application of recursive filters to variational statistical analysis. Part I: Spatially homogeneous and isotropic Gaussian covariances, Monthly Weather Review",
+            "Purser, R. J., W.-S. Wu, D. F. Parrish, and N. M. Roberts (2003), Numerical aspects of the application of recursive filters to variational statistical analysis. Part II: Spatially inhomogeneous and anisotropic general covariances, Monthly Weather Review",
+            "Wu, W.-S., R.J. Purser and D.F. Parrish (2002), Three-dimensional variational analysis with spatially inhomogeneous covariances, Monthly Weather Review"
+          ]
+        },
+        "relatedURLs": {
+          "Data": [
+            {
+              "label": "Access the data via HTTPS.",
+              "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXFLX.5.12.4/",
+              "priority": 0,
+              "subgroup": "Online Archive",
+              "subtype": "Online Archive",
+              "type": "GET DATA"
+            },
+            {
+              "label": "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+              "link": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=M2T1NXFLX",
+              "priority": 0,
+              "subgroup": "Visualization",
+              "subtype": "Giovanni",
+              "type": "GET RELATED VISUALIZATION"
+            },
+            {
+              "label": "Use the Earthdata Search to find and retrieve data sets across multiple data centers.",
+              "link": "https://search.earthdata.nasa.gov/search?q=M2T1NXFLX",
+              "priority": 0,
+              "subgroup": "Search",
+              "subtype": "Earthdata Search",
+              "type": "GET DATA"
+            },
+            {
+              "label": "The GrADS Data Server (GDS) is another form of OPeNDAP that provides subsetting and some analysis services across the Internet.",
+              "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/dods/M2T1NXFLX.info",
+              "priority": 0,
+              "subgroup": "Web Services",
+              "subtype": "GDS",
+              "type": "USE SERVICE API"
+            },
+            {
+              "label": "Access the data via the OPeNDAP protocol.",
+              "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/opendap/MERRA2/M2T1NXFLX.5.12.4/contents.html",
+              "priority": 0,
+              "subgroup": "Web Services",
+              "subtype": "OPENDAP",
+              "type": "USE SERVICE API"
+            },
+            {
+              "label": "Time aggregated THREDDS Data Server (TDS)",
+              "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/thredds/catalog/MERRA2_aggregation/M2T1NXFLX.5.12.4/catalog.html",
+              "priority": 0,
+              "subgroup": "Web Services",
+              "subtype": "THREDDS Data",
+              "type": "USE SERVICE API"
+            }
+          ],
+          "Documents": [
+            {
+              "label": "How to read and plot the data.",
+              "link": "https://disc.gsfc.nasa.gov/information/howto?tags=MERRA",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "HOW-TO",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "The GMAO MERRA-2 documentation and FAQs",
+              "link": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/docs/",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "PROJECT HOME PAGE",
+              "type": "PROJECT HOME PAGE"
+            },
+            {
+              "label": "MERRA-2 File Specification Document",
+              "link": "https://gmao.gsfc.nasa.gov/pubs/docs/Bosilovich785.pdf",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "PI DOCUMENTATION",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "README Document",
+              "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXFLX.5.12.4/doc/MERRA2.README.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "READ-ME",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "MERRA-2 Data Access \u2013 Quick Start Guide",
+              "link": "https://disc.gsfc.nasa.gov/information/mission-project?title=MERRA-2",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "GENERAL DOCUMENTATION",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "Records of MERRA-2 Data Reprocessing and Service Changes",
+              "link": "https://disc.gsfc.nasa.gov/information/documents?title=Records%20of%20MERRA-2%20Data%20Reprocessing%20and%20Service%20Changes",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "IMPORTANT NOTICE",
+              "type": "VIEW RELATED INFORMATION"
+            },
+            {
+              "label": "FAQs about MERRA-2 data access",
+              "link": "https://disc.gsfc.nasa.gov/information/faqs?keywords=MERRA-2&page=1",
+              "priority": 0,
+              "subgroup": "General",
+              "subtype": "GENERAL DOCUMENTATION",
+              "type": "VIEW RELATED INFORMATION"
+            }
+          ],
+          "User guide": [
+            {
+              "label": "README Document",
+              "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXFLX.5.12.4/doc/MERRA2.README.pdf",
+              "priority": 0,
+              "subgroup": "User guide",
+              "subtype": "READ-ME",
+              "type": "VIEW RELATED INFORMATION"
+            }
+          ]
+        },
+        "score": 14.248087033623433,
+        "services": {
+          "subset": [
+            {
+              "agentConfig": {
+                "agentId": "OpenSearch",
+                "collectionSearchUrl": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=M2T1NXFLX&version=5.12.4&provider=GES_DISC",
+                "source": "opensearch_connector"
+              },
+              "agentInfo": {
+                "capabilityLabels": [
+                  "Geo-spatial search"
+                ],
+                "data": {
+                  "label": "Access the data via HTTPS.",
+                  "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXFLX.5.12.4/"
+                },
+                "priority": 0,
+                "serviceDescription": "Generate unmodified file links directly from the archive.",
+                "serviceLabel": "Get <a href=\"https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXFLX.5.12.4/\" target=\"_blank\">Original Files</a>"
+              },
+              "capabilities": [
+                "temporal",
+                "spatial",
+                "format",
+                "service"
+              ],
+              "formats": [
+                {
+                  "label": "netCDF",
+                  "value": "netCDF",
+                  "valueOriginal": "netCDF"
+                }
+              ],
+              "osdd": "https://cmr.earthdata.nasa.gov/opensearch/granules/descriptor_document.xml?utf8=%E2%9C%93&clientId=UUI&shortName=M2T1NXFLX&versionId=5.12.4&dataCenter=&commit=Generate",
+              "requiredParams": [
+                "start",
+                "end"
+              ],
+              "serviceAgent": "OpenSearch",
+              "spatialModes": [
+                "bbox",
+                "circle",
+                "point"
+              ],
+              "spatialServices": [
+                "search"
+              ]
+            },
+            {
+              "accessModel": "asynchronous",
+              "agentConfig": {
+                "agentId": "OPeNDAP",
+                "contact_information": {
+                  "contact_email": "gsfc-dl-help-disc@mail.nasa.gov",
+                  "contact_name": "GES DISC User Services"
+                },
+                "datasetId": "MERRA-2 tavg1_2d_flx_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Surface Flux Diagnostics V5.12.4",
+                "description_URL": "http://INSERT_WWW_SERVER_HERE/ssw/documentation/OPeNDAP.html",
+                "fieldMappings": [
+                  {
+                    "matchRegExpr": "^https?:\\/\\/goldsmr4\\.gesdisc\\.eosdis\\.nasa\\.gov\\/data\\/MERRA2\\/M2T1NXFLX\\.5\\.12\\.4",
+                    "substitutions": [
+                      {
+                        "substitute": "https?:\\/\\/goldsmr4\\.gesdisc\\.eosdis\\.nasa\\.gov\\/data\\/MERRA2\\/M2T1NXFLX\\.5\\.12\\.4",
+                        "with": "https://goldsmr4.gesdisc.eosdis.nasa.gov/opendap/MERRA2/M2T1NXFLX.5.12.4"
+                      }
+                    ],
+                    "type": "url"
+                  }
+                ],
+                "granule_identifier_type": "url",
+                "granule_multiplicity": "both",
+                "id": "OPeNDAP",
+                "needs_variables": "true",
+                "scriptName": "OPeNDAP_agent",
+                "service_endpoint": "http://INSERT_GESDISC_AGENTS_WWW_SERVER_HERE/daac-bin/SSW/OPeNDAP_agent",
+                "shortName": "M2T1NXFLX",
+                "source": "ssw_connector",
+                "sswAgentId": "OPeNDAP",
+                "synchronous": "true",
+                "versionId": "5.12.4"
+              },
+              "agentInfo": {
+                "about": {
+                  "label": "OPeNDAP",
+                  "link": "https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20Obtain%20Data%20in%20NetCDF%20Format%20via%20OPeNDAP"
+                },
+                "capabilityLabels": [
+                  "Geo-spatial search and crop",
+                  "Selection of variables"
+                ],
+                "data": {
+                  "label": "Access the data via the OPeNDAP protocol.",
+                  "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/opendap/MERRA2/M2T1NXFLX.5.12.4/contents.html"
+                },
+                "priority": 2,
+                "serviceDescription": "Generate file links supporting geo-spatial search and crop and selection of variables, in netCDF or ASCII formats.",
+                "serviceLabel": "Get File Subsets using <a href=\"https://goldsmr4.gesdisc.eosdis.nasa.gov/opendap/MERRA2/M2T1NXFLX.5.12.4/contents.html\" target=\"_blank\">OPeNDAP</a>"
+              },
+              "capabilities": [
+                "temporal",
+                "spatial",
+                "format",
+                "variables",
+                "service"
+              ],
+              "dataFields": [
+                {
+                  "label": "surface_bouyancy_scale",
+                  "value": "BSTAR"
+                },
+                {
+                  "label": "surface_exchange_coefficient_for_heat",
+                  "value": "CDH"
+                },
+                {
+                  "label": "surface_exchange_coefficient_for_momentum",
+                  "value": "CDM"
+                },
+                {
+                  "label": "surface_exchange_coefficient_for_moisture",
+                  "value": "CDQ"
+                },
+                {
+                  "label": "surface_neutral_drag_coefficient",
+                  "value": "CN"
+                },
+                {
+                  "label": "zero_plane_displacement_height",
+                  "value": "DISPH"
+                },
+                {
+                  "label": "total_latent_energy_flux",
+                  "value": "EFLUX"
+                },
+                {
+                  "label": "evaporation_from_turbulence",
+                  "value": "EVAP"
+                },
+                {
+                  "label": "areal_fraction_of_anvil_showers",
+                  "value": "FRCAN"
+                },
+                {
+                  "label": "areal_fraction_of_convective_showers",
+                  "value": "FRCCN"
+                },
+                {
+                  "label": "areal_fraction_of_nonanvil_large_scale_showers",
+                  "value": "FRCLS"
+                },
+                {
+                  "label": "ice_covered_fraction_of_tile",
+                  "value": "FRSEAICE"
+                },
+                {
+                  "label": "Ground_heating_for_skin_temp",
+                  "value": "GHTSKIN"
+                },
+                {
+                  "label": "sensible_heat_flux_from_turbulence",
+                  "value": "HFLUX"
+                },
+                {
+                  "label": "surface_layer_height",
+                  "value": "HLML"
+                },
+                {
+                  "label": "surface_downwelling_nearinfrared_diffuse_flux",
+                  "value": "NIRDF"
+                },
+                {
+                  "label": "surface_downwelling_nearinfrared_beam_flux",
+                  "value": "NIRDR"
+                },
+                {
+                  "label": "planetary_boundary_layer_height",
+                  "value": "PBLH"
+                },
+                {
+                  "label": "Total_column_production_of_precipitation",
+                  "value": "PGENTOT"
+                },
+                {
+                  "label": "anvil_precipitation",
+                  "value": "PRECANV"
+                },
+                {
+                  "label": "convective_precipitation",
+                  "value": "PRECCON"
+                },
+                {
+                  "label": "nonanvil_large_scale_precipitation",
+                  "value": "PRECLSC"
+                },
+                {
+                  "label": "snowfall",
+                  "value": "PRECSNO"
+                },
+                {
+                  "label": "total_precipitation",
+                  "value": "PRECTOT"
+                },
+                {
+                  "label": "bias_corrected_total_precipitation",
+                  "value": "PRECTOTCORR"
+                },
+                {
+                  "label": "Total_column_re-evap/subl_of_precipitation",
+                  "value": "PREVTOT"
+                },
+                {
+                  "label": "surface_specific_humidity",
+                  "value": "QLML"
+                },
+                {
+                  "label": "effective_surface_specific_humidity",
+                  "value": "QSH"
+                },
+                {
+                  "label": "surface_moisture_scale",
+                  "value": "QSTAR"
+                },
+                {
+                  "label": "air_density_at_surface",
+                  "value": "RHOA"
+                },
+                {
+                  "label": "surface_bulk_richardson_number",
+                  "value": "RISFC"
+                },
+                {
+                  "label": "surface_wind_speed",
+                  "value": "SPEED"
+                },
+                {
+                  "label": "surface_wind_speed max",
+                  "value": "SPEEDMAX"
+                },
+                {
+                  "label": "surface_eastward_gravity_wave_stress",
+                  "value": "TAUGWX"
+                },
+                {
+                  "label": "surface_northward_gravity_wave_stress",
+                  "value": "TAUGWY"
+                },
+                {
+                  "label": "eastward_surface_stress",
+                  "value": "TAUX"
+                },
+                {
+                  "label": "northward_surface_stress",
+                  "value": "TAUY"
+                },
+                {
+                  "label": "transcom_planetary_boundary_layer_height",
+                  "value": "TCZPBL"
+                },
+                {
+                  "label": "surface_air_temperature",
+                  "value": "TLML"
+                },
+                {
+                  "label": "effective_surface_skin_temperature",
+                  "value": "TSH"
+                },
+                {
+                  "label": "surface_temperature_scale",
+                  "value": "TSTAR"
+                },
+                {
+                  "label": "surface_eastward_wind",
+                  "value": "ULML"
+                },
+                {
+                  "label": "surface_velocity_scale",
+                  "value": "USTAR"
+                },
+                {
+                  "label": "surface_northward_wind",
+                  "value": "VLML"
+                },
+                {
+                  "label": "surface_roughness_for_heat",
+                  "value": "Z0H"
+                },
+                {
+                  "label": "surface_roughness",
+                  "value": "Z0M"
+                }
+              ],
+              "formats": [
+                {
+                  "label": "netCDF",
+                  "value": "netCDF",
+                  "valueOriginal": "netCDF4"
+                },
+                {
+                  "label": "ASCII",
+                  "value": "ASCII",
+                  "valueOriginal": "ASCII"
+                }
+              ],
+              "osdd": "https://cmr.earthdata.nasa.gov/opensearch/granules/descriptor_document.xml?utf8=%E2%9C%93&clientId=UUI&shortName=M2T1NXFLX&versionId=5.12.4&dataCenter=&commit=Generate",
+              "requiredParams": [
+                "start",
+                "end"
+              ],
+              "serviceAgent": "OPeNDAP",
+              "spatialModes": [
+                "bbox"
+              ],
+              "spatialServices": [
+                "search",
+                "crop"
+              ]
+            },
+            {
+              "agentConfig": {
+                "agentId": "L34RS_MERRA2",
+                "encodeFormat": true,
+                "flags": {},
+                "server": "goldsmr4.gesdisc.eosdis.nasa.gov",
+                "source": "httpservices_connector"
+              },
+              "agentInfo": {
+                "about": {
+                  "label": "GES DISC Level 3 and 4 Regridder and Subsetter",
+                  "link": "https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20use%20the%20Level%203%20and%204%20Subsetter%20and%20Regridder"
+                },
+                "capabilityLabels": [
+                  "Geo-spatial search and crop",
+                  "Selection of variables",
+                  "Selection of time of day",
+                  "Regridding"
+                ],
+                "priority": 4,
+                "serviceDescription": "Generate file links supporting geo-spatial search and crop, selection of variables, selection of time of day, and regridding, in netCDF format.",
+                "serviceLabel": "Get File Subsets using the GES DISC Subsetter"
+              },
+              "capabilities": [
+                "temporal",
+                "format",
+                "spatial",
+                "variables",
+                "diurnal",
+                "regrid",
+                "service"
+              ],
+              "dataFields": [
+                {
+                  "label": "BSTAR = surface bouyancy scale",
+                  "value": "BSTAR"
+                },
+                {
+                  "label": "CDH = surface exchange coefficient for heat",
+                  "value": "CDH"
+                },
+                {
+                  "label": "CDM = surface exchange coefficient for momentum",
+                  "value": "CDM"
+                },
+                {
+                  "label": "CDQ = surface exchange coefficient for moisture",
+                  "value": "CDQ"
+                },
+                {
+                  "label": "CN = surface neutral drag coefficient",
+                  "value": "CN"
+                },
+                {
+                  "label": "DISPH = zero plane displacement height",
+                  "value": "DISPH"
+                },
+                {
+                  "label": "EFLUX = total latent energy flux",
+                  "value": "EFLUX"
+                },
+                {
+                  "label": "EVAP = evaporation from turbulence",
+                  "value": "EVAP"
+                },
+                {
+                  "label": "FRCAN = areal fraction of anvil showers",
+                  "value": "FRCAN"
+                },
+                {
+                  "label": "FRCCN = areal fraction of convective showers",
+                  "value": "FRCCN"
+                },
+                {
+                  "label": "FRCLS = areal fraction of nonanvil large scale showers",
+                  "value": "FRCLS"
+                },
+                {
+                  "label": "FRSEAICE = ice covered fraction of tile",
+                  "value": "FRSEAICE"
+                },
+                {
+                  "label": "GHTSKIN = ground heating for skin temp",
+                  "value": "GHTSKIN"
+                },
+                {
+                  "label": "HFLUX = sensible heat flux from turbulence",
+                  "value": "HFLUX"
+                },
+                {
+                  "label": "HLML = surface layer height",
+                  "value": "HLML"
+                },
+                {
+                  "label": "NIRDF = surface downwelling nearinfrared diffuse flux",
+                  "value": "NIRDF"
+                },
+                {
+                  "label": "NIRDR = surface downwelling nearinfrared beam flux",
+                  "value": "NIRDR"
+                },
+                {
+                  "label": "PBLH = planetary boundary layer height",
+                  "value": "PBLH"
+                },
+                {
+                  "label": "PGENTOT = total column production of precipitation",
+                  "value": "PGENTOT"
+                },
+                {
+                  "label": "PRECANV = anvil precipitation",
+                  "value": "PRECANV"
+                },
+                {
+                  "label": "PRECCON = convective precipitation",
+                  "value": "PRECCON"
+                },
+                {
+                  "label": "PRECLSC = nonanvil large scale precipitation",
+                  "value": "PRECLSC"
+                },
+                {
+                  "label": "PRECSNO = snowfall",
+                  "value": "PRECSNO"
+                },
+                {
+                  "label": "PRECTOT = total precipitation from atm model physics",
+                  "value": "PRECTOT"
+                },
+                {
+                  "label": "PRECTOTCORR = bias  corrected total precipitation",
+                  "value": "PRECTOTCORR"
+                },
+                {
+                  "label": "PREVTOT = total column re-evap/subl of precipitation",
+                  "value": "PREVTOT"
+                },
+                {
+                  "label": "QLML = surface specific humidity",
+                  "value": "QLML"
+                },
+                {
+                  "label": "QSH = effective surface specific humidity",
+                  "value": "QSH"
+                },
+                {
+                  "label": "QSTAR = surface moisture scale",
+                  "value": "QSTAR"
+                },
+                {
+                  "label": "RHOA = air density at surface",
+                  "value": "RHOA"
+                },
+                {
+                  "label": "RISFC = surface bulk richardson number",
+                  "value": "RISFC"
+                },
+                {
+                  "label": "SPEED = surface wind speed",
+                  "value": "SPEED"
+                },
+                {
+                  "label": "SPEEDMAX = surface wind speed",
+                  "value": "SPEEDMAX"
+                },
+                {
+                  "label": "TAUGWX = surface eastward gravity wave stress",
+                  "value": "TAUGWX"
+                },
+                {
+                  "label": "TAUGWY = surface northward gravity wave stress",
+                  "value": "TAUGWY"
+                },
+                {
+                  "label": "TAUX = eastward surface stress",
+                  "value": "TAUX"
+                },
+                {
+                  "label": "TAUY = northward surface stress",
+                  "value": "TAUY"
+                },
+                {
+                  "label": "TCZPBL = transcom planetary boundary layer height",
+                  "value": "TCZPBL"
+                },
+                {
+                  "label": "TLML = surface air temperature",
+                  "value": "TLML"
+                },
+                {
+                  "label": "TSH = effective surface skin temperature",
+                  "value": "TSH"
+                },
+                {
+                  "label": "TSTAR = surface temperature scale",
+                  "value": "TSTAR"
+                },
+                {
+                  "label": "ULML = surface eastward wind",
+                  "value": "ULML"
+                },
+                {
+                  "label": "USTAR = surface velocity scale",
+                  "value": "USTAR"
+                },
+                {
+                  "label": "VLML = surface northward wind",
+                  "value": "VLML"
+                },
+                {
+                  "label": "Z0H = surface roughness for heat",
+                  "value": "Z0H"
+                },
+                {
+                  "label": "Z0M = surface roughness",
+                  "value": "Z0M"
+                }
+              ],
+              "diurnalAggregations": [
+                {
+                  "label": "Mean",
+                  "value": "1"
+                },
+                {
+                  "label": "Mininum",
+                  "value": "2"
+                },
+                {
+                  "label": "Maximum",
+                  "value": "3"
+                }
+              ],
+              "diurnalTimes": [
+                "00:30",
+                "01:30",
+                "02:30",
+                "03:30",
+                "04:30",
+                "05:30",
+                "06:30",
+                "07:30",
+                "08:30",
+                "09:30",
+                "10:30",
+                "11:30",
+                "12:30",
+                "13:30",
+                "14:30",
+                "15:30",
+                "16:30",
+                "17:30",
+                "18:30",
+                "19:30",
+                "20:30",
+                "21:30",
+                "22:30",
+                "23:30"
+              ],
+              "formats": [
+                {
+                  "label": "netCDF",
+                  "value": "netCDF",
+                  "valueOriginal": "nc4"
+                }
+              ],
+              "grids": [
+                {
+                  "label": "JRA-55",
+                  "value": "JRA-55"
+                },
+                {
+                  "label": "20cr2x2",
+                  "value": "20cr2x2"
+                },
+                {
+                  "label": "MERRA0.5",
+                  "value": "MERRA0.5"
+                },
+                {
+                  "label": "MERRA1.25",
+                  "value": "MERRA1.25"
+                },
+                {
+                  "label": "gpcp2.5",
+                  "value": "gpcp2.5"
+                },
+                {
+                  "label": "cfsr1.0",
+                  "value": "cfsr1.0"
+                },
+                {
+                  "label": "cfsr2.5",
+                  "value": "cfsr2.5"
+                },
+                {
+                  "label": "ncepncar2.5",
+                  "value": "ncepncar2.5"
+                },
+                {
+                  "label": "geos1x125",
+                  "value": "geos1x125"
+                },
+                {
+                  "label": "geos1x1",
+                  "value": "geos1x1"
+                },
+                {
+                  "label": "geos4x5",
+                  "value": "geos4x5"
+                },
+                {
+                  "label": "geos2x25",
+                  "value": "geos2x25"
+                },
+                {
+                  "label": "geos0.25",
+                  "value": "geos0.25"
+                },
+                {
+                  "label": "geos0.5",
+                  "value": "geos0.5"
+                },
+                {
+                  "label": "fv1x125",
+                  "value": "fv1x125"
+                },
+                {
+                  "label": "fv2x25",
+                  "value": "fv2x25"
+                },
+                {
+                  "label": "fv4x5",
+                  "value": "fv4x5"
+                },
+                {
+                  "label": "ERA-40",
+                  "value": "ERA-40"
+                },
+                {
+                  "label": "ERA2.5",
+                  "value": "ERA2.5"
+                },
+                {
+                  "label": "ERA1.5",
+                  "value": "ERA1.5"
+                },
+                {
+                  "label": "ERA.75",
+                  "value": "ERA.75"
+                },
+                {
+                  "label": "GPCC2.5",
+                  "value": "GPCC2.5"
+                },
+                {
+                  "label": "GPCC1.0",
+                  "value": "GPCC1.0"
+                },
+                {
+                  "label": "GPCC0.5",
+                  "value": "GPCC0.5"
+                },
+                {
+                  "label": "CMORPH0.25",
+                  "value": "CMORPH0.25"
+                },
+                {
+                  "label": "NLDAS-2",
+                  "value": "NLDAS-2"
+                },
+                {
+                  "label": "GLDAS-2_0.25",
+                  "value": "GLDAS-2_0.25"
+                },
+                {
+                  "label": "GLDAS-2_1",
+                  "value": "GLDAS-2_1"
+                },
+                {
+                  "label": "NCA-LDAS",
+                  "value": "NCA-LDAS"
+                },
+                {
+                  "label": "GFDL ESM4_1x125",
+                  "value": "GFDL"
+                }
+              ],
+              "mappings": [
+                {
+                  "label": "Bilinear Interpolation",
+                  "value": "remapbil"
+                },
+                {
+                  "label": "Bicubic Interpolation",
+                  "value": "remapbic"
+                },
+                {
+                  "label": "Distance-weighted average remapping",
+                  "value": "remapdis"
+                },
+                {
+                  "label": "Nearest neighbor remapping",
+                  "value": "remapnn"
+                },
+                {
+                  "label": "First order conservative remapping",
+                  "value": "remapcon"
+                },
+                {
+                  "label": "Second order conservative remapping",
+                  "value": "remapcon2"
+                },
+                {
+                  "label": "Largest area fraction remapping",
+                  "value": "remaplaf"
+                }
+              ],
+              "osdd": "https://cmr.earthdata.nasa.gov/opensearch/granules/descriptor_document.xml?utf8=%E2%9C%93&clientId=UUI&shortName=M2T1NXFLX&versionId=5.12.4&dataCenter=&commit=Generate",
+              "requiredParams": [
+                "format",
+                "box"
+              ],
+              "serviceAgent": "httpservice",
+              "spatialModes": [
+                "bbox"
+              ],
+              "spatialServices": [
+                "search",
+                "crop"
+              ]
+            }
+          ]
+        },
+        "servicesSummary": {
+          "agents": [
+            "OpenSearch",
+            "HTTP Service",
+            "OPeNDAP"
+          ],
+          "availableServices": "subset",
+          "capabilities": [
+            "Temporal search",
+            "Spatial search and subset",
+            "Format conversion",
+            "Subset service selection",
+            "Selection of variables",
+            "Selection of time of day",
+            "Regridding"
+          ]
+        },
+        "shortName": "M2T1NXFLX",
+        "source": [
+          "Models MERRA-2"
+        ],
+        "spatialCoverage": "-180.0,-90.0,180.0,90.0",
+        "spatialRes": [
+          "0.5 \u00b0 x 0.625 \u00b0"
+        ],
+        "spatialResAreaRange": [
+          3781.25,
+          3781.25
+        ],
+        "startDate": 315532800000,
+        "startDateClosed": true,
+        "tempRes": [
+          "1 hour"
+        ],
+        "tempResIntervalRange": [
+          3600,
+          3600
+        ],
+        "userGuides": [
+          {
+            "label": "README Document",
+            "link": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2/M2T1NXFLX.5.12.4/doc/MERRA2.README.pdf",
+            "priority": 0,
+            "subgroup": "User guide",
+            "subtype": "READ-ME",
+            "type": "VIEW RELATED INFORMATION"
+          }
+        ],
+        "version": "5.12.4"
+      }
+    ],
+    "itemsPerPage": 1,
+    "startIndex": 0,
+    "totalResults": 1
+  },
+  "servicename": "UUI dataset service",
+  "type": "jsonwsp/response",
+  "version": "1.0"
+}
